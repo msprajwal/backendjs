@@ -1,4 +1,4 @@
-import e from "express"
+import express from "express"
 
 const asyncHandler = (requestHandler) => {
     (req, res, next) => {
